@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: sandybrown;
+}
+
+.container{
+    border: 3px solid black;
+    border-radius: 10px;
+    /* height: 200px; */
+    width: 700px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(189, 189, 142);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputPass{
+    display: block;
+    width: 200px;
+    border-radius: 7px;
+    border: none;
+    padding: 5px;
+}
+
+.text{
+    color: rgb(114, 113, 113);
+}
+
+#text2{
+    margin-bottom: 0;
+}
+
+#text3{
+    margin-top: 5px;
+    display: inline;
+
+}
+
+#text4{
+    display: inline;
+    color: red;
+    font-size: 1.5em;
+}
+
+.form-feild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body .alert{
+    width: 30%;
+    height: 20%;
+    padding: 20px;
+    background-color: brown;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+body .alert p{
+    /* font-size: larger; */
+    overflow-wrap: break-word;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+body .alert .okButton{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    width: 16%;
+    padding: 5px;
+}
+
+body .alert .okButton:hover{
+    box-shadow: 2px 1px rgb(30, 29, 29);
+    background-color: grey;
+}
+
+body .alert .okButton:active{
+    box-shadow: none;
+    background-color: white;
+}
